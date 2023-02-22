@@ -1,0 +1,14 @@
+name: Fluxo de CI
+
+on:
+
+workflow_dispatch;
+
+jobs:
+
+deploy-dev:
+name: DEV
+runs_on:
+steps:
+- run: echo "CONSTROI PROJETO INICIAL"
+
